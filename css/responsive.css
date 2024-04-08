@@ -1,0 +1,261 @@
+@media(min-width:768px) {
+	.nav-tabs { display: flex; }
+	.accordion-info { display: block !important }
+}
+@media(max-width:1399px) {
+	#nav li { padding: 0 1rem; }
+	#nav li a, .loginDropDown a { font-size: 1.3rem; margin-left: 1rem;}
+	.videobox { padding: 3rem; }
+	.membership { padding: 4rem; }
+	.profileDetail:before { left: -3rem; }
+}
+@media(max-width:1199px) {
+	.empoermenttitle h3 { margin: 0; font-size: 3rem; }
+	.proTodayHeadSec ul li a { margin: 0; width: 11.8rem; height: 11.8rem; }
+	.proTodayHeadSec h6 { width: 90%; }
+	.blog-media { display: flex; flex-direction: row; justify-content: center; }
+	.blog-media span { margin-right: 2rem; }
+	#nav li { padding: 0 .5rem; }
+	#nav li a, .loginDropDown a { font-size: 1.2rem; }
+	/* .loginDropDown { padding-left: 2rem !important; } */
+}
+@media(max-width:1024px) {
+	#nav li { padding: 0 .5rem; }
+	#nav li a, .loginDropDown a { font-size: 1.5rem; }
+	html { font-size: 55% }
+	.menuBar, .navbar-toggler, .mobileNav { display: block }
+	.mainNavigation .mobileView { display: flex; }
+	.mainNavigation .deskView { display: none; }
+	.mainNavigation .mobileView.dropdown-toggle::after { display: none; }
+	#wrapper, .mobileNav { -webkit-transition: -webkit-transform 0.5s; transition: transform 0.5s; }
+	.membership { padding: 3rem; }
+	#navMob li a.login { font-size: 1.8rem; display: inline-block; color: #000; font-weight: 600; padding: 1rem 2rem; line-height: normal; margin: 2rem; }
+	header { margin: 2rem 0; }
+	.loginDropBox:before { right: 1rem; }
+	.loginDropDown .dropdown-menu:before { right: 1rem; }
+	.headerBg { background-size: auto; }
+	.loginDropDown:before { top: -.2rem; }
+	.loginDropDown a img { padding-right: 0; }
+	.profileName { padding-left: 2rem; }
+	.profileCard { padding: 1rem; }
+	.proCard img { padding: 2rem; }
+	.collabSec { padding: 5rem 0 3rem 0; }
+	.timeline .card .card-header:after { top: 40px; left: 14px; }
+	.timeline .card .card-header.disable:after { top: 36px; left: 11px; }
+	.appimg img { left: 0; }
+}
+@media(max-width:991px) {
+	#nav { display: inline !important; }
+	#nav li { padding: 0 .5rem; }
+	#nav li a, .loginDropDown a { font-size: 1.0rem; }
+	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { padding-right: var(--bs-gutter-x, 1.75rem); padding-left: var(--bs-gutter-x, 1.75rem); }
+	.container { max-width: 100%; }
+	.banner-video { margin-top: 1rem; }
+	.videobox h2 { font-size: 3rem; }
+	.programbox { padding: 1rem; }
+	.programboxinner { padding: 3rem 1rem; }
+	.empowerment .btn { min-width: auto; }
+	.whychoose { margin-bottom: 3rem; }
+	.tes-div { max-width: 100%; }
+	h2 { font-size: 4.5rem; }
+	.program h2 br, .howitwork h2 br, .membership h2 br, .whychoose h2 br, .launchbox h2 br, .storieswrap h2 br { display: none; }
+	.program-slider { padding: 0 0 5rem; }
+	.program-slider .swiper-pagination { display: block; }
+	.team { margin: 0 0 2rem; }
+	.customer-two{margin-top: 3rem;}
+	.team p { min-height: auto; }
+	.page-title-div { top: 100%; transform: translateY(-100%); -webkit-transform: translateY(-100%); }
+	.regImg { display: none; }
+	.regiSection { margin-top: 2rem; }
+	.page-title { font-size: 3rem; }
+	.regiBox .mobileField:before, .custom-select:before { top: 9px; }
+	.greenBox .proCard { height: 20rem; }
+	.greenBox .proCard img { height: 11rem; }
+	.profileSec { padding: 0rem 0 5rem 0; }
+	.whyUsSec { padding: 4rem 0 5rem 0; }
+	.visionBox { margin: 5rem 0 3rem 0; }
+	.librarySec { padding-bottom: 4rem; }
+	.focusImg:before { display: none; }
+	.title-section { max-width: 100%; }
+	.myJournalSec { padding: 4rem 0; }
+	.myWhy { margin: 0 2rem 2rem 2rem; }
+	.proTodayPower { padding: 5rem 0; }
+}
+@media(max-width:768px) {
+	.profileDetail:after { right: 1rem; }
+	.profileScore { align-self: center; }
+	.whyUsSec .playVideo i, .focusImg .playVideo i, .brainUpImg .playVideo i { width: 8rem; height: 8rem; font-size: 3rem; }
+	.proTodayHeadSec ul li a { width: 11rem; height: 11rem; margin: 0 auto; }
+	.proTodayMyWhy .myWhyBox p { padding: 3rem 2rem 0 2rem; }
+	.proTodayPower p { width: 100%; }
+	.ourStorySec p { text-align: justify; }
+	.proTodayHeadSec .dayLiveFree { width: 50%; }
+	.proTodayHeadSec h2 { padding-top: 3rem; padding-bottom: 2rem; }
+	.proPlayerImg { border: 0; }
+	.appimg { height: 375px; }
+	.profileName h3 { font-size: 3.6rem; }
+	.proPhoto-upload { height: 21rem; margin-bottom: 3rem }
+	.proPhoto-upload .photo-preview { width: 20rem; height: 20rem; }
+}
+@media(max-width:767px) {
+	html { font-size: 50% }
+	.tab-content > .tab-pane { display: block !important; opacity: 1; }
+	.accordion-mobile-title { display: block }
+	.bannerImg { height: 150px; }
+	.banner-video { margin-left: 0; }
+	.play-icon { font-size: 4rem; }
+	.logo img { max-height: 45px; }
+	.program { margin-top: 0; }
+	.programbox { margin-top: 3rem; }
+	h2 { font-size: 4rem; }
+	.empowerment, .program, .membershipwrap, .videoHeader, .storieswrap, .courseOutline, .proBen, .membershipSec .membershipBox, .peopleSayWrap, .proTodayHeadSec h2, .morningPrimer, .meaningSec, .eveningPrimer, .brainUpgrade { padding-top: 5rem; padding-bottom: 5rem; }
+	.storieswrap, footer { padding-top: 4rem; }
+	.launch { margin-top: 5rem; }
+	.launchbox { margin-top: 2rem; }
+	.programbox:hover { transform: scale(1); }
+	.empowermentimg { margin-bottom: 2rem; }
+	.appimg { margin-bottom: 8rem; height: 477px; }
+	.download { padding: 10rem 0 5rem 0; }
+	.download h2 br { display: none; }
+	.storiesdiv { margin: 1rem 0 0; }
+	.footer-logo img { max-height: 100px; }
+	.section-space { margin-top: 5rem; }
+	.teamBg, .unlockBg { margin-top: 0; }
+	.launchbox { padding: 3rem; }
+	.mission h2 { text-align: center; }
+	.regImg { display: none; }
+	.regiBox .mobileField:after { top: 6px }
+	.newsletter button::before { height: 25px; }
+	.playerImg { margin-bottom: 2rem; }
+	.why-us-slider { margin-bottom: 2rem; text-align: center; }
+	.why-us-slider .swiper-pagination { text-align: center; }
+	.whyUsImg img { width: 100%; }
+	.profileDetail:after { right: 3rem; top: 0; }
+	.profileDetail:before { display: none; }
+	.profileScore { align-self: center; }
+	.empoermenttitle h3 { padding: 4rem 0; }
+	.empoermenttitle h3 br { display: none; }
+	.premiumMember { font-size: 1.5rem; }
+	.greenBox .proCard { height: 24rem; }
+	.profileDetail .proTitle, .profileDetail .proDetail, .libraryTitle { font-size: 1.8rem; }
+	.greenBox .proCard .proHeading { font-size: 2rem; }
+	.collabComment .collabDiv { font-size: 1.6rem; }
+	.collabNext a { justify-content: flex-end; }
+	.greenBox .proCard img { height: 13rem; padding: 2rem; }
+	.vision-div { padding: 0; }
+	.proTodayHeadSec ul { display: table; float: none; width: 100%; margin-top: 4rem; border-bottom: solid 1px #287829; padding-bottom: 3rem; }
+	.proTodayHeadSec ul li { float: none; display: table-cell; }
+	.meaningBox, .actionBox { height: auto; margin-bottom: 4rem; }
+	.actionBox { margin-bottom: 0; }
+	.proTodayHeadSec .dayLiveFree { width: 50%; }
+	.morningPrimer { margin: 0; padding-top: 1rem; }
+	.brainUpgrade h2 { margin-bottom: 4rem; }
+	.proTodayPower p { width: 100%; }
+	.proTodayHeadSec h2 { padding-top: 3rem; padding-bottom: 2rem; }
+	.programOutline h4 br { display: none; }
+	.timeline .card .card-header.icon.disable { font-size: 1.6rem; }
+	.powerStat { padding: 3rem 0; }
+	.myJournal { padding: 0rem 0 3rem 0; }
+	.journalBox { margin-bottom: 2rem; height: auto; }
+	.myJournal .btn { margin-top: 1rem; }
+	.collabBox { margin-bottom: 2rem; min-height: 25rem; }
+	.collabBox img { width: 60%; }
+	.collabBox h4 { font-size: 2.5rem; }
+	.libViewBtn { margin-top: 3rem; }
+	.libText { height: 100%; }
+	.profileName h3 { font-size: 3.6rem; }
+	.proPhoto-upload .photo-preview { width: 20rem; height: 20rem; }
+	.viewLibBtn { margin-top: 2rem; }
+	.purchaseSec, .memberDetail, .premiumBenefits { padding: 2rem; }
+	.purchaseSec h4 { font-size: 2.8rem; }
+	.memberFees { font-size: 3.5rem; }
+	.memberFees { margin-bottom: 2rem; }
+	.member-preview .proPhoto-upload .photo-preview, .member-preview { width: 20rem; height: 20rem; }
+	.member-preview .proPhoto-upload .photo-edit input + label { width: 45px; height: 45px; }
+	.member-preview .proPhoto-upload .photo-edit { bottom: -25px; }
+	.member-preview .proPhoto-upload .photo-edit input + label:after { top: 13px; font-size: 2.4rem; }
+	.memberDetail .proPhoto-upload .photo-edit { right: 0; }
+	.memberDetail .playerImg { margin-bottom: 5rem; justify-content: center; }
+	.memberFormControl { display: block; }
+	.totalPay { margin-top: 2rem; }
+	.renewBtn { margin-top: 4rem; text-align: center; }
+	#nav{display: none !important;}
+}
+@media(max-width:575px) {
+	h2 { font-size: 3.5rem; }
+	.membershipBox h3 { font-size: 3rem; }
+	.footer-aside ul { justify-content: center; }
+	.copyright { text-align: center; padding-bottom: 2rem; }
+	footer ul { width: 50%; }
+	.loginDropBox { width: 350px; padding: 3rem; }
+	.course-acc .daysCount { width: 20rem; margin-left: 1rem; }
+	.course-acc .card-header { padding: 1.5rem 3rem 1.5rem 2rem; }
+	.courseOutline h4 { font-size: 2rem; line-height: 1.5; }
+	.liveFree h3 { font-size: 3rem; }
+	.greenBox .proCard img { width: 100%; padding: 2rem; }
+	.profileDetail:after { display: none; }
+	.playerImg, .profileDetail { margin-bottom: 3rem; }
+	.premiumMember { margin-bottom: 2rem; }
+	.profileScore { text-align: center; }
+	.collabProf { padding: 3rem 3rem 0rem 3rem; }
+	.collabDes { padding: 3rem; text-align: center; }
+	.greenBox .proCard .proHeading { margin-bottom: 2rem; margin-top: 0; }
+	.libraryTitle { height: auto; }
+	.empowerImg { flex: none; }
+	.empoermenttitle h3 { padding: 2rem 0; }
+	.whyUsSec h2 small { display: block; margin-top: 2rem; font-size: 1.8rem; }
+	.list-group-item { padding: 1.5rem 2rem; }
+	.widget-content-left { margin-right: 2rem; }
+	.collabComment { margin-top: 3rem; justify-content: center; }
+	.collabComment .collabDiv { margin-right: 4rem; }
+	.proTodayMyWhy .myWhyBox p { height: auto; }
+	.powerStat { padding: 4rem 0; }
+	.proTodayMyWhy .myWhyBox p:after { height: 0.5rem; }
+	.proTodayPower { padding: 3rem 0; }
+	.morningPrimer { padding-top: 3rem; }
+	.dayZeroContent, .libraryBoxes { padding: 3rem; }
+	.collabPage { padding: 2rem; }
+	.libraryLesson, .libraryTools, .libraryResrc { height: auto; }
+	.proTodayHeadSec .dayLiveFree { width: 35%; }
+	.proPlayerImg { margin-bottom: 4rem; }
+	.editDelete { font-size: 1.6rem; }
+	.chatBox .media { width: 80%; }
+	.faciName { margin-bottom: 3rem; }
+	.wavePartiBox:first-child { padding-left: 0; }
+	.faciTitle { display: block; }
+	.waveDate { display: inline-block; margin: 2rem auto 0rem auto; }
+	.program-acc .daysCount { width: 20rem; flex-shrink: 0; }
+	.program-acc .card-header { padding: 1.5rem 2rem 1.5rem 2rem; }
+	.liveFree .playVideo i, #myBtn { width: 8rem; height: 8rem; font-size: 3rem; }
+	.membershipSec { margin-bottom: 1rem; }
+	.membership.premium { padding: 2rem; }
+	.howitwork { padding: 2.5rem 2rem; }
+	.btn-work{margin-top: 1rem;}
+}
+@media(max-width:420px) {
+	.logo img { width: 90%; }
+	.loginDropBox { width: 300px; padding: 3rem; }
+	.course-acc .desc { width: 20rem; }
+	.loginDropDown { padding-left: 3rem !important; }
+	.loginDropDown:before { left: 1.4rem; }
+	.collabComment .collabDiv i { display: block; }
+	.collabComment .collabDiv { margin-right: 2rem; margin-left: 2rem; }
+	.proPlayerImg, .proPhoto-upload { display: block; }
+	.profilePhoto { margin: 0 auto; }
+	.appimg { height: 420px; }
+	.proPhoto-upload .photo-preview { margin: 1rem auto 3rem auto }
+	.proPhoto-upload .photo-edit { right: 100px; }
+	.appimg img { top: -80px; }
+}
+@media(max-width:350px) {
+	.logo img { width: 80%; }
+	.loginDropDown { padding-left: 2rem !important; }
+	.collabDes { padding: 2rem; }
+	.collabComment .collabDiv { margin-right: 1rem; margin-left: 1rem; }
+	.proTodayHeadSec ul li a { width: 9rem; height: 9rem; padding: 0.4rem; }
+	.proTodayHeadSec .menuCardImg { width: 7rem; height: 7rem; }
+	.proTodayHeadSec .menuCard .menuHeading { font-size: 1.2rem; }
+	.program-acc .daysCount { width: 12rem; flex-shrink: 0; }
+	.appimg { height: 340px; }
+	.proPhoto-upload .photo-edit { right: 70px; }
+}

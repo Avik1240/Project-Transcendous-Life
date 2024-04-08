@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Transcendous Life</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" href="css/plugins.css" rel="stylesheet">
+    <link type="text/css" href="css/animate.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="noJS">
+    <div id="wrapper">
+        <header id="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-9"><a href="index.html" title="Transcendous Life" class="logo"><img
+                                src="images/logo.png"></a></div>
+                    <div class="col-md-8 col-3 text-end">
+                        <div id="mainNav" class="mainNavigation">
+                            <ul id="nav">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="our-story.html">Our Story</a></li>
+                                <li><a href="program.html">Live Free Program</a></li>
+                                <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="power-courses.html">Power Courses</a></li>
+                                <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                        aria-expanded="false" title="Products">Products
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li class="active"><a href="recommended-products.html">
+                                                <div> Recommended Products</div>
+                                            </a>
+                                        </li>
+                                        <li><a href="clarity-journal.html">
+                                                <div>Clarity Journal</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-item dropdown">
+                                <a class="btn btn-yellow login dropdown-toggle deskView btn-md" href="#"
+                                    id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" title="Login"
+                                    data-bs-auto-close="false" aria-expanded="false"> Login </a>
+                                <a class="dropdown-toggle text-white mobileView" title="Login" href="#"
+                                    id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false"> <img
+                                        src="images/login-icon.svg"> </a>
+                                <form class="dropdown-menu dropdown-menu-end loginDropBox">
+                                    <div class="loginText">Login to your Account</div>
+                                    <div class="form-group">
+                                        <label for="emailDropdown" class="loginTitle"> Email ID</label>
+                                        <input type="email" class="form-control" id="emailDropdown"
+                                            placeholder="abc@test.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordDropdown" class="loginTitle"> Password</label>
+                                        <div class="password_show">
+                                            <i class="fa fa-eye-slash" id="Loginpswd"></i>
+                                        </div>
+                                        <input type="password" class="form-control" id="lpwd" name="pwd"
+                                            data-bv-notempty-message="Password is required" required
+                                            placeholder="Password">
+                                        <input type="hidden" name="password" id="password" value="save" />
+                                    </div>
+                                    <button type="submit" class="btn btn-yellow2 w-100" title="Login"> Login </button>
+                                    <div class="loginRegText text-center">
+                                        Don't have an account? <a href="register.html" title="Create Account"> Create
+                                            Account </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="videobox wow fadeInLeft">
+                        <h2>Unlock & Empower <br>Your Limitless Brain</h2>
+                        <p>The Live Free program facilitates exponential growth by using proven neuroscience to replace
+                            limiting beliefs with powerful neural pathways. Participants live in an elevated flow state,
+                            unhindered by the world as they create their transcendent life. What are your hopes and
+                            desires? Just imagine who you will become with nothing holding you back.</p>
+                        <a href="#" class="btn btn-yellow2 mt-4" title="Join Now">Join Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 ">
+                    <div class="banner-video videoBorder wow fadeInRight">
+                        <div class="video-wrapper">
+                            <video controls id="video" poster="images/banner-video.jpg" width="900" height="506"
+                                class="img-fluid">
+                                <source src="images/transcendous-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="play-button-wrapper">
+                                <div title="Play video" class="play-gif" id="circle-play-b">
+                                    <div class="playVideo" id="myBtn"> <i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="banner-video wow fadeInRight">
+                        <video controls id="myVideo" poster="images/banner-video.jpg" width="900" height="506" class="img-fluid">
+                          <source src="images/transcendous-video.mp4" type="video/mp4">
+                          Your browser does not support HTML5 video.
+                        </video>
+                        <div onclick="myFunction()" id="myBtn"><i class='fa fa-play'></i></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <section class="program">
+            <div class="container">
+                <div class="row gx-6">
+                    <div class="col-12 text-center wow fadeInUp">
+                        <h2>Program Benefits</h2>
+                        <p>With us you don't just learn things. And you don't just do different things. You think
+                            differently and you experience the world differently.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="swiper program-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="programbox">
+                                        <div class="programboxinner">
+                                            <i><img src="images/Unhinder.svg" alt="Unhinder"></i>
+                                            <h3>Unhinder</h3>
+                                            <p>Remove blocks by finding and changing unhealthy neuropathways.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="programbox">
+                                        <div class="programboxinner">
+                                            <i><img src="images/empower.svg" alt="Empower"></i>
+                                            <h3>Empower</h3>
+                                            <p>Remove blocks by finding and changing unhealthy neuropathways.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="programbox">
+                                        <div class="programboxinner">
+                                            <i><img src="images/Transcend.svg" alt="Transcend"></i>
+                                            <h3>Transcend</h3>
+                                            <p>Live free and create; Actualize your vision.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp">
+                    </div>
+                    <div class="col-md-4 wow fadeInUp">
+                    </div>
+                    <div class="col-md-4 wow fadeInUp">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="empowerment">
+            <div class="container">
+                <div class="row gx-6 align-items-center">
+                    <div class="col-md-5 wow fadeInLeft">
+                        <div class="empowermentimg"><img src="images/empowerment.jpg">
+                            <div class="empowermentbox">
+                                <div class="box">
+                                    <div class="chart" data-percent="25" data-scale-color="#0A4A0A"><b>05</b>Days</div>
+                                </div>
+                                <span>Next wave closes in 05 days</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 wow fadeInRight">
+                        <div class="ms-0 ms-lg-5">
+                            <div class="d-flex align-items-center">
+                                <div><img src="images/LiveFree.png"></div>
+                                <div class="empoermenttitle">
+                                    <h3>40-Day Neuro<br> Empowerment <br>Program</h3>
+                                </div>
+                            </div>
+                            <div class="empowermentdisc">
+                                <p>You probably already know an area in your life where you want to transcend. Think of
+                                    that one thing you've been wanting to do, but it just hasn't happened yet. The Live
+                                    Free program will help you create and then actualize your vision. Imagine how it
+                                    will feel to start your journey of transcendence - why not start today?</p>
+                                <a href="#" title="Learn More">Learn More</a>
+                            </div>
+                            <div>
+                                <a href="program-outline.html" class="btn btn-outline-yellow2"
+                                    title="Program Schedule">Program Outline</a>
+                                <a href="#" class="btn btn-yellow2" title="Join Now">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="howitwork">
+                <div class="row">
+                    <div class="col-12 wow fadeInUp">
+                        <h2>Change your Brain.<br> Change your Life.</h2>
+                        <p>Most people don’t know how their brain works</p>
+                        <div class="mt-5 mb-5">
+                            <h3>We show you how.</h3>
+                            <p>Then you can reframe old, unhelpful mental patterns and replace them with new and
+                                powerful pathways.</p>
+                        </div>
+                        <a href="#" class="btn btn-yellow">See How It Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container membershipwrap">
+            <div class="row gx-6">
+                <div class="col-lg-6 wow fadeInLeft">
+                    <div class="membership">
+                        <h2>Basic<br> Membership</h2>
+                        <ul>
+                            <li>40 Day Neuro Empowerment Program, accessible from web and mobile app.</li>
+                            <li>Daily Brain Upgrade video and guided daily actions for lasting change.</li>
+                            <li>Neuroscience based morning and evening routines that build momentum and prime your brain
+                                for flow state.</li>
+                            <li>Extensive library of resources and tools.</li>
+                            <li>Facilitator and Participant forums.</li>
+                        </ul>
+                        <div class="pricediv">
+                            <div class="price">
+                                <b>$295</b><i>/</i>Program
+                            </div>
+                            <a href="#" class="btn btn-white" title="Buy Now">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight">
+                    <div class="membership premium mt-5 mt-lg-0">
+                        <h2>Premium<br> Membership</h2>
+                        <ul>
+                            <li><b>Everything included in the Basic Membership.</b></li>
+                            <li>Option to go through the 40 Day Program multiple times with newfound clarity as you
+                                choose to transcend in another area of your life.</li>
+                            <li>On-going collaborative forum with our exclusive community of like-minded creators and
+                                thought leaders.</li>
+                            <li>Gain early access to all advanced material.</li>
+                            <li>Continual support beyond your initial 40 Days.</li>
+                        </ul>
+                        <div class="pricediv">
+                            <div class="price">
+                                <b>$495</b><i>/</i>Yearly
+                            </div>
+                            <a href="#" class="btn btn-yellow" title="Buy Now">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row gx-6 align-items-center">
+                <div class="col-lg-6  wow fadeInLeft">
+                    <div class="whychoose">
+                        <h2>Why choose<br> our Membership</h2>
+                        <p>Keeping yourself in a constant state of growth and progress may seem overwhelming and
+                            complicated, but using neuroscience we make it easy.</p>
+                        <ul>
+                            <li>Gain the clarity, power and confidence to change your life.</li>
+                            <li>Spend more time in the free state where creativity, motivation, joy and peace flourish.
+                            </li>
+                            <li>Train your brain to work for you instead of against you.</li>
+                            <li>Adapt the program to your personal goals.</li>
+                            <li>Track daily progress. Get daily reminders to keep you on track.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6  wow fadeInRight">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-6">
+                            <div class="mb-5 whychooseimg"><img src="images/access.jpg" width="302" height="350"
+                                    class="img-fluid">
+                                <h4>Access Anywhere</h4>
+                            </div>
+                            <div class="whychooseimg"><img src="images/build.jpg" width="302" height="350"
+                                    class="img-fluid">
+                                <h4>Create a Joyful Life</h4>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="whychooseimg"><img src="images/joyful.jpg" width="302" height="350"
+                                    class="img-fluid">
+                                <h4>Build Momentum</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="launch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-9  wow fadeInLeft">
+                        <div class="launchbox">
+                            <h2>Launch<br> Special Offer</h2>
+                            <h5>Powerful change does not require a lot of time. It requires small, deliberate actions.
+                            </h5>
+                            <p>Use offer code <b>"LAUNCH22"</b> when joining for a 15% discount.</p>
+                            <a href="#" class="btn btn-yellow2 mt-5" title="Join Now">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Testimonials</h2>
+                        <div class="swiper testimonials">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="tes-div">
+                                        <p>Before the Life Free program, I felt like I was brute forcing any progress or
+                                            change in my life. I had to work so hard for small change. Now, because of
+                                            the Live Free program and what I learned and the tools I gained, whatever
+                                            changes I want to make come easily. It’s not that I don’t have to put in
+                                            effort, but my newly calibrated efforts produce greater results</p>
+                                        <div class="tes-name"><b>Mallory J.</b><span>London</span></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="tes-div">
+                                        <p>Before the Life Free program, I felt like I was brute forcing any progress or
+                                            change in my life. I had to work so hard for small change. Now, because of
+                                            the Live Free program and what I learned and the tools I gained, whatever
+                                            changes I want to make come easily. It’s not that I don’t have to put in
+                                            effort, but my newly calibrated efforts produce greater results</p>
+                                        <div class="tes-name"><b>Mallory J.</b><span>London</span></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="tes-div">
+                                        <p>Before the Life Free program, I felt like I was brute forcing any progress or
+                                            change in my life. I had to work so hard for small change. Now, because of
+                                            the Live Free program and what I learned and the tools I gained, whatever
+                                            changes I want to make come easily. It’s not that I don’t have to put in
+                                            effort, but my newly calibrated efforts produce greater results</p>
+                                        <div class="tes-name"><b>Mallory J.</b><span>London</span></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="tes-div">
+                                        <p>Before the Life Free program, I felt like I was brute forcing any progress or
+                                            change in my life. I had to work so hard for small change. Now, because of
+                                            the Live Free program and what I learned and the tools I gained, whatever
+                                            changes I want to make come easily. It’s not that I don’t have to put in
+                                            effort, but my newly calibrated efforts produce greater results</p>
+                                        <div class="tes-name"><b>Mallory J.</b><span>London</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <div class="container">
+                <div class="row align-items-center gx-6">
+                    <div class="col-md-6  wow fadeInLeft">
+                        <div class="appimg"><img src="images/app-download.png"></div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRight">
+                        <h2>Download Now and<br> Start to Live Free</h2>
+                        <p>You can access the Live Free Program from both the web and mobile app. For access anywhere
+                            anytime, start to your journey of Transcendence today!</p>
+                        <div class="d-flex mt-5">
+                            <a href="#" title="Download on the App Store" class="me-3"><img
+                                    src="images/app-store.png"></a>
+                            <a href="#" title="Get It on Google Play"><img src="images/google-play.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container storieswrap  wow fadeInUp">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Transcendous Stories</h2>
+                    <div class="swiper stories">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="storiesdiv"><img src="images/stories-1.jpg"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="storiesdiv"><img src="images/stories-2.jpg"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="storiesdiv"><img src="images/stories-3.jpg"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="storiesdiv"><img src="images/stories-4.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" title="Next"></div>
+                        <div class="swiper-button-prev" title="Prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h3>Get Some Info</h3>
+                                <div class="d-flex justify-content-between">
+                                    <ul>
+                                        <li><a href="#" title="Home">Home</a></li>
+                                        <li><a href="#" title="Subscribe">Subscribe</a></li>
+                                        <li><a href="#" title="Our Story">Our Story</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" title="Login">Login</a></li>
+                                        <li><a href="#" title="Terms & Conditions">Terms & Conditions</a></li>
+                                        <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 offset-sm-1 mt-sm-0 mt-5">
+                                <h3>Support</h3>
+                                <ul>
+                                    <li><a href="#" title="Faqs">FAQ's </a></li>
+                                    <li><a href="#" title="Contact Us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p>Get Neuroscience <br> Tips for Optimizing Your Mind</p>
+                                <form>
+                                    <div class="newsletter">
+                                        <input type="text" placeholder="Your E-mail here">
+                                        <button type="submit" title="Submit"><i
+                                                class="fa-solid fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                                <div class="d-flex mt-5">
+                                    <a href="#" class="me-3" title="Get it on Google Play"> <img
+                                            src="images/app-store.png" alt="Get it on Google Play"></a>
+                                    <a href="#" title="Download on the App Store"><img src="images/google-play.png"
+                                            title="Download on the App Store"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="#" title="Transcendous Life" class="footer-logo"><img
+                                        src="images/footer-logo.png" alt="Transcendous Life"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-aside">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <div class="copyright">Copyright © 2022 Transcendous Life, All Rights Reserved.</div>
+                        </div>
+                        <div class="col-md-6 col-sm-4">
+                            <ul>
+                                <li><a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <a href="#top" title="Back to Top" id="backtotop"><img src="images/backtop.png"></a>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/general.js"></script>
+</body>
+
+</html>

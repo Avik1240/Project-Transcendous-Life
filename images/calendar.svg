@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.957" height="25.341" viewBox="0 0 22.957 25.341">
+  <g id="Group_3207" data-name="Group 3207" transform="translate(-962.95 -2514.25)">
+    <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(963.7 2515)">
+      <path id="Path_5042" data-name="Path 5042" d="M6.884,6H23.573a2.384,2.384,0,0,1,2.384,2.384V25.073a2.384,2.384,0,0,1-2.384,2.384H6.884A2.384,2.384,0,0,1,4.5,25.073V8.384A2.384,2.384,0,0,1,6.884,6Z" transform="translate(-4.5 -3.616)" fill="none" stroke="#fec82e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_5043" data-name="Path 5043" d="M24,3V7.768" transform="translate(-8.503 -3)" fill="none" stroke="#fec82e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_5044" data-name="Path 5044" d="M12,3V7.768" transform="translate(-6.04 -3)" fill="none" stroke="#fec82e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_5045" data-name="Path 5045" d="M4.5,15H25.957" transform="translate(-4.5 -5.464)" fill="none" stroke="#fec82e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <rect id="Rectangle_1369" data-name="Rectangle 1369" width="2" height="2" transform="translate(967.229 2527.921)" fill="#fec82e"/>
+    <rect id="Rectangle_1372" data-name="Rectangle 1372" width="2" height="2" transform="translate(973.229 2527.921)" fill="#fec82e"/>
+    <rect id="Rectangle_1374" data-name="Rectangle 1374" width="2" height="2" transform="translate(979.229 2527.921)" fill="#fec82e"/>
+    <rect id="Rectangle_1370" data-name="Rectangle 1370" width="2" height="2" transform="translate(967.229 2532.921)" fill="#fec82e"/>
+    <rect id="Rectangle_1371" data-name="Rectangle 1371" width="2" height="2" transform="translate(973.229 2532.921)" fill="#fec82e"/>
+  </g>
+</svg>
