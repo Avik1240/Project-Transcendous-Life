@@ -20,14 +20,30 @@
         <header id="header" class="inner-header">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4 col-9"><a href="index.html" title="Transcendous Life" class="logo"><img src="images/logo.png"></a></div>
+                    <div class="col-md-4 col-9"><a href="index.html" title="Transcendous Life" class="logo"><img
+                                src="images/logo.png"></a></div>
                     <div class="col-md-8 col-3 text-end">
                         <div id="mainNav" class="mainNavigation">
                             <ul id="nav">
                                 <li><a href="index.html" title="Home">Home</a></li>
-                                <li><a href="our-story.html" title="Our Story">Our Story</a></li>
+                                <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                        aria-expanded="false" title="Products">Learn
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li class="active">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="program.html" title="Program">Live Free Program</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
                                 <li class="active"><a href="power-courses.html">Power Courses</a></li>
                                 <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
                                     <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
@@ -45,9 +61,49 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <div id="mySidenav" class="sidenav">
+                                <ul id="nav" class="responsive-nav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <li><a href="index.html" title="Home">Home</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Learn
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="program.html" title="Program">Live Free Program</a></li>
+                                    <li><a href="power-courses.html">Power Courses</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Products
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="recommended-products.html">
+                                                <div>Recommended Products</div>
+                                            </a>
+                                            <a href="clarity-journal.html">
+                                                <div>Clarity Journal</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
                             <div class="nav-item dropdown loginDropDown">
-                                <a class="dropdown-toggle deskView" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" title="Svetlana"><img src="images/login-icon.svg"> Svetlana </a>
-                                <a class="dropdown-toggle text-white mobileView" title="Login" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false"> <img src="images/login-icon.svg"> </a>
+                                <a class="dropdown-toggle deskView" href="#" id="navbarDropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false" title="Svetlana"><img
+                                        src="images/login-icon.svg"> Svetlana </a>
+                                <a class="dropdown-toggle text-white mobileView" title="Login" href="#"
+                                    id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false"> <img
+                                        src="images/login-icon.svg"> </a>
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <ul>
                                         <li class="active"><a href="user-dashboard.html">
@@ -77,14 +133,14 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <section class="innerBanner">
-            <div class="bannerImg"> <img src="/images/about-banner.jpg" alt="Transcendous Life"
+            <div class="bannerImg"> <img src="images/about-banner.jpg" alt="Transcendous Life"
                     title="Transcendous Life"> </div>
             <div class="page-title-div">
                 <div class="container">
@@ -108,17 +164,18 @@
                 <div class="row g-5 ">
                     <div class="col-lg-12">
                         <div class="green-bg-dark team">
-                            <h3 >My Courses</h3>
+                            <h3>My Courses</h3>
                             <div class="row courses col-lg-12">
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-1.png" alt="Course-1">
+                                            <img src="images/course-1.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>The 3 Powers</h5>
                                             <p>Focus, Meaning & Action</p>
-                                            <a href="three-powers.html" class="btn btn-yellow2 coursebtn" title="Go To Course">Go To
+                                            <a href="my-courses.html" class="btn btn-yellow2 coursebtn"
+                                                title="Go To Course">Go To
                                                 Course</a>
                                         </div>
                                     </div>
@@ -126,7 +183,7 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-2.png" alt="Course-1">
+                                            <img src="images/course-2.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Mindful Parenting</h5>
@@ -139,11 +196,11 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-3.png" alt="Course-1">
+                                            <img src="images/course-3.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Identity</h5>
-                                            <p>Uncivering Your Potential</p>
+                                            <p>Uncovering Your Potential</p>
                                             <a href="#" class="btn btn-yellow2 coursebtn" title="Go To Course">Go To
                                                 Course</a>
                                         </div>
@@ -155,7 +212,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-space teamBg">
+        <section class="section-space teamBg course-section">
             <div class="container">
                 <div class="row g-5 ">
                     <div class="col-lg-12">
@@ -165,12 +222,13 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-4.png" alt="Course-1">
+                                            <img src="images/course-4.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>The 6 Human Needs</h5>
-                                            <p>Our Internal Reward Sytem</p>
-                                            <a href="human-needs.html" class="btn btn-yellow2 coursebtn" title="Get Access">Get
+                                            <p>Our Internal Reward System</p>
+                                            <a href="course-details.html" class="btn btn-yellow2 coursebtn"
+                                                title="Get Access">Get
                                                 Access</a>
                                         </div>
                                     </div>
@@ -178,7 +236,7 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-5.png" alt="Course-1">
+                                            <img src="images/course-5.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Building Community</h5>
@@ -191,7 +249,7 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-6.png" alt="Course-1">
+                                            <img src="images/course-6.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Addiction</h5>
@@ -206,7 +264,7 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-7.png" alt="Course-1">
+                                            <img src="images/course-7.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Triad of Change</h5>
@@ -219,7 +277,7 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image">
-                                            <img src="/images/course-8.png" alt="Course-1">
+                                            <img src="images/course-8.png" alt="Course-1">
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Maps</h5>
@@ -232,13 +290,14 @@
                                 <div class="col-lg-4 gy-5">
                                     <div class="course-detail p-4">
                                         <div class=" my-0 course-image coming-soon">
-                                            <img src="/images/course-8.png" alt="Course-1">
-                                            <div class="ribbon-coming-soon py-3">Coming Soon</div>
+                                            <img src="images/course-9.png" alt="Course-1">
+                                            <!-- <div class="ribbon-coming-soon py-3">Coming Soon</div> -->
                                         </div>
                                         <div class=" mt-4 course-description">
                                             <h5>Motivation Cycle</h5>
                                             <p>Leveraging Neurophysiology</p>
-                                            <a href="#" class="btn btn-course coursebtn" title="Notify Me">Notify Me</a>
+                                            <a href="#" class="btn btn-yellow2 coursebtn" title="Get Access">Get
+                                                Access</a>
 
                                         </div>
                                     </div>
@@ -332,10 +391,10 @@
                                     </div>
                                 </form>
                                 <div class="d-flex mt-5">
-                                    <a href="#" class="me-3" title="Get it on Google Play"> <img
-                                            src="images/google-play.png" alt="Get it on Google Play"></a>
-                                    <a href="#" title="Download on the App Store"><img src="images/app-store.png"
-                                            title="Download on the App Store"></a>
+                                    <a href="#" class="me-3" title="Download on the App Store"><img
+                                            src="images/app-store.png" title="Download on the App Store" /></a>
+                                    <a href="#" title="Get it on Google Play">
+                                        <img src="images/google-play.png" alt="Get it on Google Play" /></a>
                                 </div>
                             </div>
                             <div class="col-md-5">

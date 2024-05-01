@@ -26,9 +26,24 @@
                         <div id="mainNav" class="mainNavigation">
                             <ul id="nav">
                                 <li><a href="index.html" title="Home">Home</a></li>
-                                <li><a href="our-story.html" title="Our Story">Our Story</a></li>
+                                <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                        aria-expanded="false" title="Products">Learn
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li class="active">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="program.html" title="Program">Live Free Program</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
                                 <li><a href="power-courses.html">Power Courses</a></li>
                                 <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
                                     <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
@@ -46,6 +61,42 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <div id="mySidenav" class="sidenav">
+                                <ul id="nav" class="responsive-nav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <li><a href="index.html" title="Home">Home</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Learn
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="program.html" title="Program">Live Free Program</a></li>
+                                    <li><a href="power-courses.html">Power Courses</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Products
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="recommended-products.html">
+                                                <div>Recommended Products</div>
+                                            </a>
+                                            <a href="clarity-journal.html">
+                                                <div>Clarity Journal</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
                             <div class="nav-item dropdown loginDropDown">
                                 <a class="dropdown-toggle deskView" href="#" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false" title="Svetlana"><img
@@ -89,11 +140,11 @@
             </div>
         </header>
         <section class="innerBanner">
-            <div class="bannerImg"> <img src="/images/about-banner.jpg" alt="Transcendous Life"
+            <div class="bannerImg"> <img src="images/about-banner.jpg" alt="Transcendous Life"
                     title="Transcendous Life"> </div>
             <div class="page-title-div">
                 <div class="container">
-                    <h1 class="page-title">Our Favorite Products</h1>
+                    <h1 class="page-title">Recommended Products</h1>
                 </div>
             </div>
         </section>
@@ -102,7 +153,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Products</li>
+                        <li class="breadcrumb-item active" aria-current="page">Product</li>
                         <li class="breadcrumb-item active" aria-current="page">Recommended Products</li>
                     </ol>
                 </nav>
@@ -114,41 +165,42 @@
                 <div class="row g-5 ">
                     <div class="col-lg-12">
                         <div class="green-bg-dark team">
-                            <h3 class="py-2">Our Favourite Neuro-Wellness Products</h3>
+                            <h3 class="product-heading">Our Favourite Neuro-Wellness Products</h3>
                             <div class="row mx-0 g-5 products">
                                 <div class="row mx-0 g-5 py-4 product-detail">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 py-4 product-image">
-                                        <img src="/images/pillow.png" alt="Meditation Pillow">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 p-0 product-image">
+                                        <img src="images/product-1.png" alt="Meditation Pillow">
                                     </div>
                                     <div class="col-lg-8 my-0 col-md-8 col-sm-8 my-0 product-description">
                                         <h4>Meditation Pillow</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, libero,
-                                            nostrum distinctio impedit laboriosam pariatur fuga eum debitis doloribus
-                                            nobis dolorem consequatur temporibus? Et, atque.</p>
+                                        <p>Perfect for any meditation practice! Helps maintain proper posture when
+                                            sitting for extended periods of time. All natural materials. Helps make
+                                            morning and evening primers so much easier!</p>
                                         <a href="#" class="btn btn-yellow2 mt-4" title="Buy on Amazon">Buy on Amazon</a>
                                     </div>
                                 </div>
                                 <div class="row mx-0 g-5 py-4 product-detail">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 py-4 product-image">
-                                        <img src="/images/atomic-habits.png" alt="Book of Atomic Habits">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 p-0 product-image">
+                                        <img src="images/product-2.png" alt="Book of Atomic Habits">
                                     </div>
                                     <div class="col-lg-8 my-0 col-md-8 col-sm-8 my-0 product-description">
                                         <h4>Atomic Habits</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, libero,
-                                            nostrum distinctio impedit laboriosam pariatur fuga eum debitis doloribus
-                                            nobis dolorem consequatur temporibus? Et, atque.</p>
+                                        <p>So many principles of the Live Free program can be found throughout this
+                                            entire book. Dives deep into a lot of concepts we cover, including habits,
+                                            triggers, conditioning, addiction, primers and more. Available as an Audible
+                                            audiobook as well.</p>
                                         <a href="#" class="btn btn-yellow2 mt-4" title="Buy on Amazon">Buy on Amazon</a>
                                     </div>
                                 </div>
                                 <div class="row mx-0 g-5 py-4 product-detail">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 py-4 product-image">
-                                        <img src="/images/powder.png" alt="Mushroom Powder">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 my-0 p-0 product-image">
+                                        <img src="images/product-3.png" alt="Mushroom Powder">
                                     </div>
                                     <div class="col-lg-8 my-0 col-md-8 col-sm-8 my-0 product-description ">
                                         <h4>Lion's Mane Mushroom Powder</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, libero,
-                                            nostrum distinctio impedit laboriosam pariatur fuga eum debitis doloribus
-                                            nobis dolorem consequatur temporibus? Et, atque.</p>
+                                        <p>Super easy to use. We add ours to smoothies. We also love mixing it into our
+                                            hot chocolate (gives a nice earthy taste). Boosts brain function,
+                                            neurogenesis, mood, and mental clarity.</p>
                                         <a href="#" class="btn btn-yellow2 mt-4" title="Buy on Amazon">Buy on Amazon</a>
                                     </div>
                                 </div>
@@ -201,10 +253,10 @@
                                     </div>
                                 </form>
                                 <div class="d-flex mt-5">
-                                    <a href="#" class="me-3" title="Get it on Google Play"> <img
-                                            src="images/google-play.png" alt="Get it on Google Play"></a>
-                                    <a href="#" title="Download on the App Store"><img src="images/app-store.png"
-                                            title="Download on the App Store"></a>
+                                    <a href="#" class="me-3" title="Download on the App Store"><img
+                                            src="images/app-store.png" title="Download on the App Store"></a>
+                                    <a href="#" title="Get it on Google Play"> <img src="images/google-play.png"
+                                            alt="Get it on Google Play"></a>
                                 </div>
                             </div>
                             <div class="col-md-5">

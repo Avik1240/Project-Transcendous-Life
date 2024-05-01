@@ -678,3 +678,4 @@ $(function() {
             circlePlayButton.style.opacity = 1;
         });
 })(jQuery);
+

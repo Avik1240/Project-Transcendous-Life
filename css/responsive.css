@@ -13,7 +13,6 @@
 	.empoermenttitle h3 { margin: 0; font-size: 3rem; }
 	.proTodayHeadSec ul li a { margin: 0; width: 11.8rem; height: 11.8rem; }
 	.proTodayHeadSec h6 { width: 90%; }
-	.blog-media { display: flex; flex-direction: row; justify-content: center; }
 	.blog-media span { margin-right: 2rem; }
 	#nav li { padding: 0 .5rem; }
 	#nav li a, .loginDropDown a { font-size: 1.2rem; }
@@ -21,7 +20,7 @@
 }
 @media(max-width:1024px) {
 	#nav li { padding: 0 .5rem; }
-	#nav li a, .loginDropDown a { font-size: 1.5rem; }
+	#nav li a, .loginDropDown a { font-size: 1.7rem; }
 	html { font-size: 55% }
 	.menuBar, .navbar-toggler, .mobileNav { display: block }
 	.mainNavigation .mobileView { display: flex; }
@@ -43,11 +42,20 @@
 	.timeline .card .card-header:after { top: 40px; left: 14px; }
 	.timeline .card .card-header.disable:after { top: 36px; left: 11px; }
 	.appimg img { left: 0; }
+	.course-section h3, .power h3{font-size: 40px;}
+	.power-3 .power-detail h5{font-size: 20px;}
+	.power-detail h2{font-size: 45px;}
+	.power-list li,.power-detail p,.course-detail-block p{font-size: 16px;}
+	.course-empower h1{font-size: 5rem;}
+	.course-detail-block h5{font-size: 40px;margin-bottom: 2rem;}
+	.journal-image div img{width: 400px;height: 530px; right: -50px;}
 }
 @media(max-width:991px) {
+	.blog-media { display: flex; flex-direction: row; justify-content: center; }
+	.journal-image div img{display: none;}
 	#nav { display: inline !important; }
 	#nav li { padding: 0 .5rem; }
-	#nav li a, .loginDropDown a { font-size: 1.0rem; }
+	#nav li a, .loginDropDown a { font-size: 1.3rem; }
 	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { padding-right: var(--bs-gutter-x, 1.75rem); padding-left: var(--bs-gutter-x, 1.75rem); }
 	.container { max-width: 100%; }
 	.banner-video { margin-top: 1rem; }
@@ -80,8 +88,18 @@
 	.myJournalSec { padding: 4rem 0; }
 	.myWhy { margin: 0 2rem 2rem 2rem; }
 	.proTodayPower { padding: 5rem 0; }
+	.course-section h3, .power h3, .blog-detail h1,.blog-data h5,.product-heading,.title-description h3{font-size: 35px;}
+	.power-3 .power-detail{display: flex;flex-direction: column;align-items: center;}
+	.power-3 .power-detail h5{font-size: 20px;text-align: center;}
+	.power-detail h2{font-size: 45px;}
+	.power-list li,.power-detail p,.course-detail-block p{font-size: 16px;}
+	.course-empower h1{font-size: 5rem;}
+	.course-detail-block h5{font-size: 40px;margin-bottom: 2rem;}
+	.product-description .date{margin-top: 1rem;}
+	.date p{font-size: 1.6rem;}
 }
 @media(max-width:768px) {
+	.product-description .date{margin-top: 1rem;}
 	.profileDetail:after { right: 1rem; }
 	.profileScore { align-self: center; }
 	.whyUsSec .playVideo i, .focusImg .playVideo i, .brainUpImg .playVideo i { width: 8rem; height: 8rem; font-size: 3rem; }
@@ -96,6 +114,15 @@
 	.profileName h3 { font-size: 3.6rem; }
 	.proPhoto-upload { height: 21rem; margin-bottom: 3rem }
 	.proPhoto-upload .photo-preview { width: 20rem; height: 20rem; }
+	.title-description p{font-size: 16px;}
+	.title-description h3,.product-heading{font-size: 40px;}
+	#nav{display: none !important;}
+	.sidenav {
+		display: block;
+		
+	  }
+	  .openbtn{display: block;}
+	  .responsive-nav{display: flex !important;}
 }
 @media(max-width:767px) {
 	html { font-size: 50% }
@@ -180,6 +207,24 @@
 	.totalPay { margin-top: 2rem; }
 	.renewBtn { margin-top: 4rem; text-align: center; }
 	#nav{display: none !important;}
+	.responsive-menu{display: inline !important;}
+	.course-section h3, .power h3, .blog-detail h1, .blog-data h5,.product-heading	{font-size: 27px;}
+	.power-3 .power-detail{display: flex;flex-direction: column;align-items: center;}
+	.power-3 .power-detail h5{font-size: 20px;text-align: center;}
+	.power-detail h2{font-size: 45px;}
+	.power-list li,.power-detail p,.course-detail-block p{font-size: 16px;}
+	.course-empower h1{font-size: 4rem;}
+	.course-detail-block h5{font-size: 30px;}
+	.title-description p{font-size: 16px;}
+	.title-description h3{font-size: 40px;}
+	.product-description .date p:after{margin: 0.6em 0.3em;}
+	.blog-media span a{display: flex;align-items: center; justify-content: center;}
+	.sidenav {
+		display: block;
+		
+	  }
+	  .openbtn{display: block;}
+	  .responsive-nav{display: flex !important;}
 }
 @media(max-width:575px) {
 	h2 { font-size: 3.5rem; }
@@ -231,9 +276,21 @@
 	.membership.premium { padding: 2rem; }
 	.howitwork { padding: 2.5rem 2rem; }
 	.btn-work{margin-top: 1rem;}
+	.course-section h3, .power h3{font-size: 27px;}
+	.power-3 .power-detail{display: flex;flex-direction: column;align-items: center;}
+	.power-3 .power-detail h5{font-size: 20px;text-align: center;}
+	.power-detail h2{font-size: 45px;}
+	.power-list li,.power-detail p,.course-detail-block p{font-size: 16px;}
+	.course-empower h1{font-size: 4rem;}
+	.title-description h3{font-size: 30px;}
+
+	.course-detail-block h5{font-size: 30px;}
+	.product-description .date p:after{margin: 0.75em .3em;}
 }
 @media(max-width:420px) {
+
 	.logo img { width: 90%; }
+	.trans img{ width: auto ; }
 	.loginDropBox { width: 300px; padding: 3rem; }
 	.course-acc .desc { width: 20rem; }
 	.loginDropDown { padding-left: 3rem !important; }
@@ -246,9 +303,14 @@
 	.proPhoto-upload .photo-preview { margin: 1rem auto 3rem auto }
 	.proPhoto-upload .photo-edit { right: 100px; }
 	.appimg img { top: -80px; }
+	.title-description p{font-size: 10px;}
+	.title-description h3{font-size: 30px;}
+	.product-description h4{font-size: 20px;}
+	.breadcrumb-item, .breadcrumb-item a, .breadcrumb-item.active{font-size: 1.3rem;}
 }
 @media(max-width:350px) {
 	.logo img { width: 80%; }
+	.trans img{ width: auto; }
 	.loginDropDown { padding-left: 2rem !important; }
 	.collabDes { padding: 2rem; }
 	.collabComment .collabDiv { margin-right: 1rem; margin-left: 1rem; }
@@ -259,3 +321,7 @@
 	.appimg { height: 340px; }
 	.proPhoto-upload .photo-edit { right: 70px; }
 }
+
+
+
+

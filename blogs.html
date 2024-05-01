@@ -26,9 +26,24 @@
                         <div id="mainNav" class="mainNavigation">
                             <ul id="nav">
                                 <li><a href="index.html" title="Home">Home</a></li>
-                                <li><a href="our-story.html" title="Our Story">Our Story</a></li>
+                                <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
+                                        aria-expanded="false" title="Products">Learn
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li class="active">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="program.html" title="Program">Live Free Program</a></li>
-                                <li class="active"><a href="blogs.html">Blogs</a></li>
                                 <li><a href="power-courses.html">Power Courses</a></li>
                                 <li class="nav-item dropdown px-0 loginDropDown product-dropdown">
                                     <a class="dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown"
@@ -46,6 +61,42 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <div id="mySidenav" class="sidenav">
+                                <ul id="nav" class="responsive-nav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <li><a href="index.html" title="Home">Home</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Learn
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="our-story.html">
+                                                <div>Our Story</div>
+                                            </a>
+                                            <a href="blogs.html">
+                                                <div>Brain Blog</div>
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="program.html" title="Program">Live Free Program</a></li>
+                                    <li><a href="power-courses.html">Power Courses</a></li>
+                                    <li class="nav-item dropdown loginDropDown product-dropdown">
+                                        <a class="dropdown-toggle dropdown-btn" href="#" id="navbarDropdown"
+                                            data-bs-toggle="dropdown" aria-expanded="false" title="Products">Products
+                                        </a>
+                                        <div class="dropdown-container">
+                                            <a href="recommended-products.html">
+                                                <div>Recommended Products</div>
+                                            </a>
+                                            <a href="clarity-journal.html">
+                                                <div>Clarity Journal</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
 
                             <div class="nav-item dropdown loginDropDown">
                                 <a class="dropdown-toggle deskView" href="#" id="navbarDropdown"
@@ -90,11 +141,11 @@
             </div>
         </header>
         <section class="innerBanner">
-            <div class="bannerImg"> <img src="/images/about-banner.jpg" alt="Transcendous Life"
+            <div class="bannerImg"> <img src="images/about-banner.jpg" alt="Transcendous Life"
                     title="Transcendous Life"> </div>
             <div class="page-title-div">
                 <div class="container">
-                    <h1 class="page-title">Blogs</h1>
+                    <h1 class="page-title">Brain Blog</h1>
                 </div>
             </div>
         </section>
@@ -103,12 +154,29 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html" title="Home">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+                        <li class="breadcrumb-item active" aria-current="page">Brain Blog</li>
                     </ol>
                 </nav>
             </div>
         </div>
-
+        <section class="title-description section-space">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12">
+                        <h3 class="py-2">Title Goes Here</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section-space teamBg">
             <div class="container">
                 <div class="row g-5 ">
@@ -116,12 +184,12 @@
                         <div class="green-bg-dark team">
                             <div class="row mx-0 g-5 blogs">
                                 <div class="row mx-0 g-5 py-4 product-detail blog">
-                                    <div class="col-lg-4  my-0 py-4 blog-image">
-                                        <img src="/images/blog-1.jpg" alt="blog-1">
+                                    <div class="col-lg-4  my-0  blog-image px-0">
+                                        <img src="images/blog-1.png" alt="blog-1">
                                     </div>
                                     <div class="col-lg-8 my-0 product-description">
                                         <div class="d-flex date">
-                                            <p>1st April 2024</p>
+                                            <p>01st April 2024</p>
                                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 Min Read</span>
                                         </div>
                                         <h4>Blog Title Goes Here</h4>
@@ -133,12 +201,12 @@
                                     </div>
                                 </div>
                                 <div class="row mx-0 g-5 py-4 product-detail blog">
-                                    <div class="col-lg-4  my-0 py-4 blog-image">
-                                        <img src="/images/blog-2.jpg" alt="blog-2">
+                                    <div class="col-lg-4  my-0  blog-image px-0">
+                                        <img src="images/blog-2.png" alt="blog-2">
                                     </div>
                                     <div class="col-lg-8  my-0 product-description">
                                         <div class="d-flex date">
-                                            <p>1st April 2024</p>
+                                            <p>01st April 2024</p>
                                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 Min Read</span>
                                         </div>
                                         <h4>Blog Title Goes Here</h4>
@@ -150,12 +218,12 @@
                                     </div>
                                 </div>
                                 <div class="row mx-0 g-5 py-4 product-detail blog">
-                                    <div class="col-lg-4  my-0 py-4 blog-image">
-                                        <img src="/images/blog-3.jpg" alt="blog-3">
+                                    <div class="col-lg-4  my-0 px-0 blog-image">
+                                        <img src="images/blog-3.png" alt="blog-3">
                                     </div>
                                     <div class="col-lg-8  my-0 product-description">
                                         <div class="d-flex date">
-                                            <p>1st April 2024</p>
+                                            <p>01st April 2024</p>
                                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 Min Read</span>
                                         </div>
                                         <h4>Blog Title Goes Here</h4>
@@ -167,12 +235,12 @@
                                     </div>
                                 </div>
                                 <div class="row mx-0 g-5 py-4 product-detail blog">
-                                    <div class="col-lg-4  my-0 py-4 blog-image">
-                                        <img src="/images/blog-4.jpg" alt="blog-4">
+                                    <div class="col-lg-4 px-0 my-0 blog-image">
+                                        <img src="images/blog-4.png" alt="blog-4">
                                     </div>
                                     <div class="col-lg-8  my-0 product-description">
                                         <div class="d-flex date">
-                                            <p>1st April 2024</p>
+                                            <p>01st April 2024</p>
                                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 Min Read</span>
                                         </div>
                                         <h4>Blog Title Goes Here</h4>
@@ -231,10 +299,10 @@
                                     </div>
                                 </form>
                                 <div class="d-flex mt-5">
-                                    <a href="#" class="me-3" title="Get it on Google Play"> <img
-                                            src="images/google-play.png" alt="Get it on Google Play"></a>
-                                    <a href="#" title="Download on the App Store"><img src="images/app-store.png"
-                                            title="Download on the App Store"></a>
+                                    <a href="#" class="me-3" title="Download on the App Store"><img
+                                        src="images/app-store.png" title="Download on the App Store"></a>
+                                <a href="#" title="Get it on Google Play"> <img src="images/google-play.png"
+                                        alt="Get it on Google Play"></a>
                                 </div>
                             </div>
                             <div class="col-md-5">
